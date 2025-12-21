@@ -1,0 +1,23 @@
+# Python仮想環境
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# MkDocsビルド成果物
+site/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 一時ファイル
+*.tmp
+*.bak
+

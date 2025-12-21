@@ -1,0 +1,98 @@
+# プロジェクト情報
+site_name: 感門之盟 PJパック
+site_description: 感門之盟の準備・運営に必要な情報をまとめたナレッジベース
+site_author: イシス編集学校
+
+# テーマ設定
+theme:
+  name: material
+  language: ja
+  palette:
+    # ライトモード
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    # ダークモード
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  font:
+    text: Noto Sans JP
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.tabs.link
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+# 拡張機能
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+# プラグイン
+plugins:
+  - search:
+      lang: ja
+
+# ナビゲーション
+nav:
+  - ホーム: index.md
+  - ルル:
+    - ロール: 01_ルル/ロール.md
+    - ルール: 01_ルル/ルール.md
+    - ツール: 01_ルル/ツール.md
+  - ダンドリ:
+    - 全体ダンドリ: 02_ダンドリ/00_全体ダンドリ.md
+    - 感門団: 02_ダンドリ/01_感門団.md
+    - 感門団（当日）: 02_ダンドリ/01-1_感門団当日.md
+    - 感門エディスト: 02_ダンドリ/02_感門エディスト.md
+    - MCラウンジ: 02_ダンドリ/03_MCラウンジ.md
+    - 次第作り: 02_ダンドリ/04_次第作り.md
+    - 冊子: 02_ダンドリ/05_冊子.md
+    - テーマ決め: 02_ダンドリ/06_テーマ決め.md
+    - アフ感: 02_ダンドリ/07_アフ感.md
+  - テンプレート: 03_テンプレート/index.md
+  - ナレッジ:
+    - 概要: 04_ナレッジ/index.md
+    - 司会・MC:
+      - 感門之盟の司会とは: 04_ナレッジ/司会・MC/感門之盟の司会とは.md
+      - 感門MCとして意識できるあれこれ: 04_ナレッジ/司会・MC/感門MCとして意識できるあれこれ.md
+    - 運営ノウハウ:
+      - アフ感場所: 04_ナレッジ/運営ノウハウ/アフ感場所.md
+      - インターブッキング: 04_ナレッジ/運営ノウハウ/インターブッキング.md
+    - 振り返り・課題:
+      - 今後の課題: 04_ナレッジ/振り返り・課題/今後の課題.md
+
+# 追加CSS（必要に応じて）
+extra_css:
+  - stylesheets/extra.css
+
+# フッター
+extra:
+  social: []
+  generator: false
+
