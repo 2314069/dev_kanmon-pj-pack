@@ -10,7 +10,7 @@
 
 ## アートレッグカフェ下北沢
 
-[:material-link: ホットペッパー](https://www.hotpepper.jp/strJ000980615/){ .md-button }
+[ホットペッパー](https://www.hotpepper.jp/strJ000980615/)
 
 | 項目 | 内容 |
 |-----|------|
@@ -29,7 +29,7 @@
 
 ## 満月廬
 
-[:material-link: 食べログ](https://tabelog.com/tokyo/A1304/A130401/13000979/){ .md-button }
+[食べログ](https://tabelog.com/tokyo/A1304/A130401/13000979/)
 
 | 項目 | 内容 |
 |-----|------|
@@ -43,7 +43,7 @@
 
 過去に検討した場所（没案含む）の一覧：
 
-[:material-google-spreadsheet: 場所案スプレッドシート](https://docs.google.com/spreadsheets/d/1CNJ5ZG5d8dsiI5NgZ1AeAExdU-8MFFCv6KczsvbbImk/edit?gid=0#gid=0){ .md-button .md-button--primary }
+[場所案スプレッドシート](https://docs.google.com/spreadsheets/d/1CNJ5ZG5d8dsiI5NgZ1AeAExdU-8MFFCv6KczsvbbImk/edit?gid=0#gid=0)
 
 
 
